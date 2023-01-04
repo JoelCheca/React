@@ -1,0 +1,61 @@
+.card{
+    height: 100%;
+}
+
+.precio-lista{
+  
+    color: var(--gris-claro);
+    font-size:  0.9em;
+    text-decoration: line-through;
+    margin-left: 5 px;
+}
+
+.btnQuickView{
+    margin-left: 5px;
+    cursor: pointer;
+    font-size: 1.5em;
+}
+
+.btnQuickView :hover{
+    color: var(--color3);
+}
+
+.sin-oferta{
+    display: none;
+}
+
+.con-oferta{
+    position: absolute;
+    padding: 5px 10px;
+    background-color: var(--color3);
+    top:0;
+    right: 0;
+    color: var(--color-blanco);
+  
+}
+
+#cards-productos .card-img-top {
+    padding: 30px;
+   
+}
+
+#cards-productos .card {
+    text-align:  center;
+    transition: all ease-in-out 5.s;
+
+   
+}
+
+#cards-productos .card:hover {
+   box-shadow: 0 3px 10px rgba(0, 0, 0, 0.2);
+   
+}
+
+.btnCarrito{
+cursor: pointer;
+margin-left: 5px;
+}
+
+.btnCarrito:hover{
+    color: var(--color3)
+    }
